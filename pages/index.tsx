@@ -13,6 +13,7 @@ import TeachStackLine from "./components/shared/TeachStackLine";
 import UpcomingEvents from "./components/Home/Events/UpcomingEvents";
 import ReactTooltip from 'react-tooltip';
 import Codepeak from "./components/Home/Codepeak";
+import OpenSource from "./components/Home/OpenSource";
 
 const Home: NextPage = () => {
   return (
@@ -71,6 +72,7 @@ const Home: NextPage = () => {
       <SocialHome />
       <DonateHome />
       <Footer />
+      <OpenSource/>
     </>
   );
 };
